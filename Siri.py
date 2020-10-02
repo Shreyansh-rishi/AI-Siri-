@@ -68,6 +68,9 @@ if __name__ == "__main__":
 
         elif 'open google' in query:
             webbrowser.open("google.com")
+        elif 'what' in query:
+            a = webbrowser.open("google.com")
+            a.open_new_tab("query")
         
         elif 'play music' in query:
             music_dir = 'C:\\Users\\nitac\\Desktop\\Favourites'
